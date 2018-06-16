@@ -6,6 +6,7 @@ export TERM="screen-256color"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export SOURCE_ANNOTATION_DIRECTORIES="spec"
+export ZSH_THEME=blinks
 
 setopt auto_cd
 cdpath=($HOME/code $HOME/Developer $HOME/Sites $HOME/Dropbox $HOME)
@@ -17,8 +18,6 @@ HISTFILE=~/.zsh_history
 source $HOME/dotfiles/zsh/oh-my-zsh
 source $HOME/dotfiles/zsh/aliases
 source $HOME/dotfiles/zsh/functions
-
-ZSH_THEME=blinks
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
