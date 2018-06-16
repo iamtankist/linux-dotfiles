@@ -17,15 +17,7 @@ HISTFILE=~/.zsh_history
 source $HOME/dotfiles/zsh/oh-my-zsh
 source $HOME/dotfiles/zsh/aliases
 source $HOME/dotfiles/zsh/prompt
-source $HOME/dotfiles/zsh/tmux
 source $HOME/dotfiles/zsh/functions
-
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-# Travis CI
-[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
