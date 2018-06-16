@@ -1,0 +1,18 @@
+[user]
+	name = Armen Mkrtchyan
+	email = tankist@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+[push]
+	default = tracking
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	lg = log --format='%Cgreen%h %Cred%cr %Creset%s %Cblue%cn%Cgreen%d'
